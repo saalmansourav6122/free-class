@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: grid;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;     
+        width: 100vw;
+    }
+    .form{
+        background-color: #DDAF94;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        width: calc(100vw - 75vw);
+        max-width: 100%;
+    }
+    .header{
+        padding: 30px 0;
+        background-color: #4F4846;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+    .header h2{
+        color: #FDF8F5;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: center;
+        max-width: 100%;
+        width: calc(100vw - 75vw);
+    }
+    form label{
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    }
+    .input-ceneter{
+        display: grid;
+        justify-content: center;
+        width: 100%;
+    }
+    .input-ceneter input{
+        display: block;
+        /* border-radius:15px; */
+        padding: 10px 1px;
+        font-weight: 700;
+        border: 1px solid #EEFBFB;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .input-ceneter input:focus{
+        outline: 0;
+        box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+    }
+    /* .input-ceneter .success input:focus{
+        border: 1px solid #4F8A10;
+    }
+    .input-ceneter .error input:focus{
+        border: 1px solid #D8000C;
+    } */
+
+    form button{
+        display: block;
+        border: 1px solid #266150;
+        background-color: #266150;
+        width: 100%;
+        color: #FDF8F5;
+        font-size: 20px;
+        border-radius: 4px;
+        padding: 5px;
+        width: calc(100vw - 65vw);
+        max-width: 100%;
+    }
+    .text-error{
+        color: rgb(230, 15, 15);
+    }
+    
+    @media(max-width:998px){
+        .form{
+            width: calc(100vw - 35vw);
+            max-width: 100%;
+        }
+        form button{
+        width: calc(100vw - 35vw);
+        max-width: 100%;
+    }
+    .header h2{
+        text-align: center;
+        width: calc(100vw - 35vw);
+        max-width: 100%;
+    }
+    }
+</style>
+
+<div class="form">
+    <div class="header"><h2>SIGN UP</h2></div>
+    <form action="" name="signUp">
+
+        <div class="input-ceneter">
+        <label for="name">User Name</label>
+        <input type="text" id="name" name="user" placeholder="User Name" autocomplete="off">
+        <div class="userText text-error"></div>
+        </div>
+        <br>
+
+        <div class="input-ceneter">
+        <label for="mil">Email</label>
+        <input type="email" id="mil" name="email" placeholder="Email" autocomplete="off">
+        <div class="milText text-error"></div>
+        </div>
+        <br>
+
+        <div class="input-ceneter">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="pswd" placeholder="Password" autocomplete="off">
+        <div class="passwordText text-error"></div>
+        </div>
+        <br>
+
+        <div class="input-ceneter">
+        <label for="conforMpassword">Conform Password</label>
+        <input type="password" id="conforMpassword" class="conforMpassword" name="Cpswd" placeholder="Conform Password" autocomplete="off">
+        <div class="conforMpasswordText text-error"></div>
+        </div>
+        <br>
+
+        <button type="submit">Click</button>
+    </form>
+</div>
+
+<div class="outer-modal">
+<div class="inner-modal"></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

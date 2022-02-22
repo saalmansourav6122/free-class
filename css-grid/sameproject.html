@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    main{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+          "se1 se1 se2 se3 se4"
+          "se1 se1 se5 se5 se5"
+        ;
+        height: 100vh;
+    }
+    .se1{
+        grid-area: se1;
+    }
+    .se2{
+        grid-area: se2;
+    }
+    .se3{
+        grid-area: se3;
+    }
+    .se4{
+        grid-area: se4;
+    }
+    .se5{
+        grid-area: se5;
+    }
+    .item{
+        background-color: aqua;
+    }
+    img{
+        width: 100%;
+        background-size: cover;
+    }
+</style>
+<body>
+
+
+    <main>
+        <div class="item se1"><img src="https://picsum.photos/500?random=1" alt=""></div>
+        <div class="item se2">
+            <img src="https://picsum.photos/200?random=2" alt="">
+        </div>
+        <div class="item se3">
+            <img src="https://picsum.photos/200?random=3" alt="">
+        </div>
+        <div class="item se4">
+            <img src="https://picsum.photos/200?random=4" alt="">
+        </div>
+        <div class="item se5">
+            <img src="https://picsum.photos/200?random=5" alt="">
+        </div>
+    </main>
+</body>
+</html>

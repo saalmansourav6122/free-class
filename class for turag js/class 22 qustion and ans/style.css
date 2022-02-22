@@ -1,0 +1,9 @@
+.cards {
+  display: flex;
+}
+
+.player.card {
+  border: 1px solid;
+  margin: 10px;
+  padding: 20px;
+}

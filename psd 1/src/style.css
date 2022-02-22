@@ -1,0 +1,596 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+/* !! Common style */
+.box{
+    width: 282px;
+    height: 270px;
+    margin: 15px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.devider{
+    width: 568px; 
+    height: 1px;
+    background-color: #ffffff;   
+}
+.hero-sec{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2b0b2d;
+}
+.hero-ovarlay{
+    background: url(./img/2Q==.png);
+    width: 100vw;
+    height: 100vh;
+}
+.edu-and-exp-box-color1{
+    width: 578px;
+    height: 545px;
+    background-image: url(./img/Rectangle\ 10\ copy\ 7.png);
+    margin: 10px;
+    position: relative;
+}
+.edu-and-exp-box-color{
+   width: 578px;
+   height: 545px;
+   background-color: #60657d;
+}
+.edu-and-exp-box-color-container{
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    left: 40px;
+}
+.edu-and-exp-shape{
+    width: 496px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+.edu-and-exp-box-color-container h1{
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.edu-and-exp-box-color-container h2{
+    margin-top: 30px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto"
+}
+.edu-and-exp-box-color-container h3{
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    opacity: 0.7;
+}
+.edu-and-exp-box-color-container p{
+    margin-top: 15px;
+    line-height: 23px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    opacity: 0.5;
+}
+/* !! Common style End */
+
+/* Hero style */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 702px;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.ham-icon {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.ract{
+    position: absolute;
+    top: 44px;
+    right: 14px;
+}
+.hero-content h1{
+    font-size: 65px;
+    letter-spacing: 14px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 85px;
+    margin: 0 0;
+    
+}
+.hero-content ul{
+    display: flex;
+    margin-top: 10px;
+}
+.hero-content ul li{
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+
+}
+.hero-content ul li:first-child{
+    margin-right: 10px;
+  }
+.hero-content ul li:last-child{
+      margin-left: 12px;
+    }
+/* Hero style End */
+/* || about */
+.about-main{
+    display: flex;
+    margin-top: 121px;
+}
+.about-content{
+    margin-top: 42px;
+    margin-left: 80px;
+}
+.about-content h1{
+    /* width: 670px;
+    height: 17px; */
+    font-size: 18px;
+    letter-spacing: 0px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.about-content p{
+    /* width: 670px;
+    height: 100px; */
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.about-content button{
+    width: 202px;
+    height: 46px;
+    background-color: #ff2b4a;
+    border: 1px solid #ff2b4a;
+    margin-top: 60px;
+    }
+    /* || CARD */
+    .card{
+        width: 100vw;
+        height: 100vh;
+        background-color: #f6f6f6;
+    }
+    .main-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        position: relative;
+    }
+    .card-content{
+        position: absolute;
+        top: 128px;
+    }
+    .card-content h1{
+        font-size: 40px;
+        letter-spacing: 0px;
+        line-height: 28px;
+        color: #000000;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+    }
+    .card-content p{
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 28px;
+        color: #000000;
+        font-weight: 500;
+        font-family: "Roboto",sans-serif;
+        text-align: center;
+        margin-top: 42px;
+    }
+    .box-card{
+        position: absolute;
+        top: 300px;
+        display: flex;
+    }
+    .card1{
+        background-color: #10c6fc;
+    }
+    .card-center{
+        text-align: center;
+    }
+    .card-center img{
+        margin-top: 90px;
+    }
+    .card-center p{
+        margin-top: 40px;
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Raleway",sans-serif;
+        text-align: center;
+    }
+    .card2{
+        background-color: #835aeb;
+    }
+    .card3{
+        background-color:  #002453;
+    }
+    .card4{
+        background-color: #ff2b4a;
+    }
+    /* Education & Work Experience || */
+    .edu-and-exp{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    /* Common has been in the middle || */
+
+    .edu-and-exp-main{
+        width: 100vw;
+        height: 100vh;
+        background-color: #2b0b2d;
+    }
+    .edu-and-exp-ovarlay{
+        background: url(./img/2Q==.png);
+        width: 100vw;
+        height: 100vh;
+    }
+    /* .edu-and-exp-box-color1{
+        width: 578px;
+        height: 545px;
+        background-image: url(./img/Rectangle\ 10\ copy\ 7.png);
+        margin: 10px;
+        position: relative;
+    }
+    .edu-and-exp-box-color{
+       width: 578px;
+       height: 545px;
+       background-color: #60657d;
+    }
+    .edu-and-exp-box-color-container{
+        position: absolute;
+        top: 60px;
+        right: 40px;
+        left: 40px;
+        bottom: 70px;
+    }
+    .edu-and-exp-shape{
+        width: 496px;
+        height: 2px;
+        background-color: #ffffff;
+        margin-top: 10px;
+    }
+    .edu-and-exp-box-color-container h1{
+        font-size: 26px;
+        letter-spacing: 1px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Raleway";
+    }
+    .edu-and-exp-box-color-container h2{
+        margin-top: 30px;
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Roboto"
+    }
+    .edu-and-exp-box-color-container h3{
+        margin-top: 20px;
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Roboto";
+        opacity: 0.7;
+    }
+    .edu-and-exp-box-color-container p{
+        margin-top: 15px;
+        line-height: 23px;
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Roboto";
+        opacity: 0.5;
+    }  */
+
+    /* Common has been in the middle ||  end*/
+
+    /* Education & Work Experience || end*/
+
+    /* latest works || */
+.latest-works-box-and-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 950px;
+    position: relative;
+}
+/* .latest-works-content{
+    position: absolute;
+    right: 400px;
+} */
+.latest-works-content h1{
+    position: absolute;
+    top: 125px;
+    left: 425px;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.latest-works-content p{
+    position: absolute;
+    top: 215px;
+    left: 400px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+.latest-works-box{
+    position: absolute;
+    top: 270px;
+}
+.latest-works-box1{
+    display: flex;
+    margin-bottom: 15px;
+}
+.latest-works-card1{
+    width: 282px;
+    height: 270px;
+    background-color: #10c6fc;
+}
+.latest-works-card2{
+    width: 282px;
+    height: 270px;
+    background-color: #835aeb;
+    margin-left: 15px;
+}
+.latest-works-card3{
+    width: 282px;
+    height: 270px;
+    background-color: #002453;
+    margin-left: 20px;  
+}
+.latest-works-card3-bottom{
+    width: 282px;
+    height: 270px;
+    background-color: #002453;
+    margin-left: 20px;
+}
+.latest-works-card4{
+    width: 282px;
+    height: 270px;
+    background-color: #ff2b4a;
+    margin-left: 20px;
+}
+.latest-works-card-big{
+    width: 580px;
+    height: 270px;
+    background-color: #835aeb;
+}
+/*|| clients quote*/
+.clients-quote{
+    width: 100vw;
+    height: 702px;
+    background-color: #64cbc0;
+    position: relative;
+}
+.img-content-signature{
+    position: absolute;
+    top: 135px;    
+}
+.img-content-signature img{
+    width: 58px;
+    height: 47px;
+}
+.img-content-signature p{
+    width: 470px;
+    height: 197px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+    position: absolute;
+    top: 140px;
+}
+.signature img{
+    width: 170px;
+    height: 60px;
+    position: absolute;
+    top: 350px;
+}
+.img-content-signature h1{
+    width: 670px;
+    height: 17px;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Roboto";  
+    position: absolute;  
+    top: 440px;
+}
+.img-content-signature h3{
+    width: 670px;
+    height: 17px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+    position: absolute;
+    top: 490px;
+}
+/*|| clients quote end*/
+
+/*|| contact */
+.contact-main{
+        background-color: #2b0b2d;
+ }
+.contact-overlay{
+        background: url(./img/2Q==.png);
+}
+.contact-lea-mes-add-ph-web-box{
+    display: flex;
+    padding: 54px 0;
+   
+}
+.contact-lea-mes-box{
+    width: 50%;
+    /* background: url(./img/Rectangle\ 10\ copy\ 7.png); */
+    background:  linear-gradient(45deg, #b25f88 0%, #7e5081 100%);
+    margin-right: 10px;
+    padding: 40px 20px;
+}
+form input{
+    width: 100%;
+    padding: 25px​;
+    margin: 10px 0;
+    background-color: transparent;
+    border: 1px solid #fff;  
+}
+form textarea{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;  
+}
+.contact-lea-mes-box button{
+    padding:10px 45px;
+    background-color: #ff2b4a;
+    border: 1px solid #ff2b4a;
+    margin: 15px 0 0 382px; 
+    color: #fff;
+} 
+.contact-heading-mes{
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    margin: 30px 0px;
+}
+.contact{
+    background:  linear-gradient(45deg, #b25f88 0%, #7e5081 100%);
+    /* padding: 60px ​20px; */
+    margin: 0 10px; 
+    width: 578px;
+    height: 231px
+}
+.contact-phone{
+    background:  linear-gradient(45deg, #b25f88 0%, #7e5081 100%);
+    margin: 10px 10px;
+    width: 578px;
+    height: 231px
+}
+.contact-heading{
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    justify-content: center;
+    padding: 45px 20px;
+}
+.contact-phone p{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    padding: 0 20px;
+
+}
+.contact p{
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    padding: 0 20px;
+
+}
+/*|| contact end*/
+
+
+/* footer */
+.footer{
+    width: 100vw;
+    height: 172px;
+    background-color: #222222;
+}
+.footer-fontasw-and-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 172px;
+    position: relative;
+}
+.footer-fontasw {
+    display: flex;
+    position: absolute;
+    left: 450px;
+}
+ .footer-fontasw img {
+    margin: 5px;
+} 
+.footer-box{
+    width: 1px;
+    height: 14px;
+    background-color: #888888;
+    margin: 5px;
+}
+.footer-content h1{
+    position: relative;
+    top: 40px;
+    right: 70px;
+    opacity: 0.5;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+}

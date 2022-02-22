@@ -1,0 +1,15 @@
+p{
+ color: rgb(31, 228, 24);
+ border: 5px solid;
+ padding-bottom: 5px;
+ display: inline;
+ margin: 450px;
+}
+
+div{
+    background: khaki;
+    border:5px lightcoral solid;
+    margin-left:450px ;
+    margin-top: 50px;
+    color: rgb(212, 173, 173);
+}  

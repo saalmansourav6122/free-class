@@ -1,0 +1,224 @@
+ /* hero-sce */
+ .hero-sec{
+    background: url(../img/background.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-cust{
+    height: 500px;
+}  
+/* hero-sce end*/
+/* our story */
+.our-story-mang{
+    position: relative;
+}
+.main-story{
+    background-color: #fff; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 550px; 
+    position: relative;
+    bottom: 120px;
+}
+.black-story{
+    background-color: black;
+    height: 550px;
+    width: 520px
+}
+.story-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    
+
+}
+.line-story{
+    position: relative;
+}
+.line-story:hover{
+    position: relative;
+    color: #e57e2a;
+    left: 50px;
+    transition: all 1s;
+}
+.line-story::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 7px;
+    background-color: #e52a2a;
+    transition:width .3;
+    position: relative;
+    bottom: 50px;
+    left: -50px;
+}
+.line-story:hover::after{
+    width: 10%;
+    transition:width 1s;
+}
+
+.arrow-story:hover{
+    transition: all .3s;
+    color: #e52a2a;
+} 
+/* our story end*/
+/* resposive story */
+ @media(max-width: 992px){
+    .main-story{
+        background-color: black;
+        color: #fff;
+        text-align: center;   
+    }
+     .black-story{
+        display: none;
+    } 
+    .line-story:hover{
+        color: red;
+        transition: all 1s;
+    }
+    .line-story{
+        font-size: 17px;
+    }
+}  
+
+/* good offer */
+.org-box{
+    background: #e57e2a;
+    height: 550px;
+    width: 600px;
+    margin-left: 80px;
+}
+.main-good-offer{
+        background-color: #fff; 
+        height: 550px;  
+}
+/* good offer end */
+/* good offer res*/
+@media(max-width: 992px){
+    .main-good-offer{
+        background-color: #e57e2a;
+        height: 550px;
+        color: black;
+        text-align: center;   
+    }
+     .org-box{
+        display: none;
+    }
+} 
+/* about card  */
+.about-img{
+    height: 80px;
+    width: 100px;
+    margin: 0 12;
+}
+.about-heading{
+    color: #e57e2a;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.card{
+    position: relative;
+    z-index: 1;
+    box-shadow: #f80606fd 0px 3px 8px;
+}
+/* about card  end*/
+/* map */
+.map{
+    background: url(../img/web1.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* map end */
+/* footer */
+.list-footer{
+    line-height: 1.2;
+    padding: 0 15px;
+}
+.footer-main{
+    padding: 15px 0;
+}
+.footer-sce{
+    background-color: #f4f8ff;
+}
+.wrapper .footer-icon-circle span{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: block; 
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 50%;
+    transition: all 0.5s;
+    line-height: 50px;
+    text-decoration: none;
+}
+.wrapper .footer-icon-circle span:hover{
+    border: 1px solid #e54c2b;
+    color: #e54c2b;
+}
+.wrapper .footer-icon-circle{
+    margin: 0 5px;
+}
+.butt-srch{
+    position: relative;
+}
+.footer-search-butt{
+    width: 35px;
+    height: 35px;
+    background-color: #e54c2b;
+    border-radius: 50%;
+    color: #fff;
+    position: relative;
+    bottom: 37px;
+    left: 230px;
+    border: 1px solid #e54c2b;
+}
+.heading-1{
+    margin-top: 20px;
+}
+.footer-search{
+    margin-top: 40px;
+    padding: 5px 45px;
+}
+.footer-icon-content-2{
+    margin-top: 40px;
+}
+.footer-icon{
+    margin-top: 20px;
+}
+.footer-sce-resposive{
+    display: flex;
+}
+
+/* footer end*/
+/* footer resposive */
+@media (max-width:992px){
+    .footer-sce-resposive{
+        display: block;
+        text-align: center;
+    }
+    .footer-search-butt{
+      display: none;
+    }
+    .wrapper .footer-icon-circle span{
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        display: block; 
+        border: 1px solid #fff;
+        background: #fff;
+        border-radius: 50%;
+        transition: all 0.5s;
+        line-height: 35px;
+    }
+    .wrapper .footer-icon-circle span:hover{
+        border: 1px solid #e54c2b;
+        color: #e54c2b;
+    }
+    .wrapper{
+        justify-content: center;
+    }
+}
+/* footer resposive end*/

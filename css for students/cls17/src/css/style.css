@@ -1,0 +1,27 @@
+h1~p{
+    color: tomato;
+    margin-left: 450px;
+}
+h1+h2{
+    color: teal;
+    margin-left: 450px;
+}
+.ok > h4{
+    color: thistle;
+    margin-left: 450px;
+}
+.ok > h5,h6{
+    color: turquoise;
+    margin-left: 450px;
+}
+#para>p{
+    background-color: tomato;
+    /* border: 2px solid; */
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: justify;
+    text-indent: 5px;
+}
+p{
+    background-color: green !important;
+}

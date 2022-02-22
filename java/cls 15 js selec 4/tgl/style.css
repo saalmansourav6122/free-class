@@ -1,0 +1,46 @@
+.content2 p{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(240, 213, 204);
+    transition: all 1s;
+}
+.content3 i{
+    font-size: 30px;
+}
+.box{
+    font-size: 0%;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(240, 213, 204);
+    transition: all 1s;
+}
+.main-conten{
+    text-align: center;
+}
+.but{
+    text-align: center;
+}
+.but button{
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    padding: 10px 20px;
+    color: rgb(173, 87, 6);
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* .content2 p {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(240, 213, 204);
+    transition: all 1s;
+}
+
+.box{
+    font-size: 0;
+    text-align: center;
+    background-color: coral;
+    transition: all 1s;
+}
+ */

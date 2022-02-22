@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* home work */
+.main{
+    background-image:url("/src/img/revolt-164_6wVEHfI-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    color: white;
+}
+.burgur{
+    position: absolute;
+    top: 10px;
+    right: 35px;
+    font-size: 25px;
+}
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    font-size: 25px;
+}
+.angle{
+    position: absolute;
+    bottom: 10px;
+    font-size: 35px;
+}
+.text h2{
+    letter-spacing: 15px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.text p{
+    letter-spacing: 7px;
+    font-size: 20px;
+}
+/* home work end */
+/* only text */
+
+.hero h1,p{
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  word-spacing: 10px;
+  text-justify: inherit;
+}
+.only{   
+    margin-top: 60px; 
+    box-sizing: border-box;
+    position: relative; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin-left: 30px;
+}
+.box{
+    margin: 10px;
+}
+.box1 h2{
+    line-height: 55px;
+}
+.box{
+    position: absolute;
+    border: 3px solid rgb(214, 8, 241);
+    height: 2px;
+    width: 85px;
+    background-color: rgb(214, 8, 241);
+    top: -29px;
+}
+/* only text end */
+

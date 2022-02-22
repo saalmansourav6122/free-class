@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1050px;
+    margin: auto;
+}
+.background{
+    padding: 15px 0;
+    background-color: #2d4c80;
+}
+.top-header{
+   display: flex;
+   justify-content: space-between;
+   color: white;
+
+}
+.right-header span{
+    margin-left: 10px;
+}
+.left-header span{
+    margin-right: 30px;
+    font-size: 30px;    
+} 
+button{
+    padding: 3px 13px;
+    background: #256be6;
+    border: 2px #256be6;
+}
+.background1{
+    padding: 40px 0;
+    background-color: white;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.list-header ul{
+    display: flex;
+}
+.img-header img{
+    display: block;
+    height: 45px;
+    width: auto;
+}
+.list-header ul li{
+    font-family: 'Baloo Tammudu 2', cursive;
+    list-style: none;
+    margin-right: 20px;
+}

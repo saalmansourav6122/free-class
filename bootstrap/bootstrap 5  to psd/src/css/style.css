@@ -1,0 +1,121 @@
+/* hero-sce */
+.hero-sec{
+    background: url(../img/background.png);
+    height: 100vh;
+}
+.hero-cust{
+    height: 500px;
+}
+/* hero-sce end*/
+
+/* card */
+.col :hover{
+    background-color: #e54c2b;
+    color: #fff;
+    transition: all 3s;
+}
+/* card end*/
+
+/* let-chat */
+.let-chat{
+    background: url(../img/background.png);
+}
+.let-chat-img {
+    transition: all 3s;
+}
+.let-chat-img :hover{
+    height: 100px;
+    transition: all 3s;
+}
+
+/* let-chat end*/
+/* footer */
+.list-footer{
+    line-height: 1.2;
+    padding: 0 15px;
+}
+.footer-main{
+    padding: 15px 0;
+}
+.footer-sce{
+    background-color: #f4f8ff;
+}
+.wrapper .footer-icon-circle span{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: block; 
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 50%;
+    transition: all 0.5s;
+    line-height: 50px;
+}
+.wrapper .footer-icon-circle span:hover{
+    border: 1px solid #e54c2b;
+    color: #e54c2b;
+}
+.wrapper .footer-icon-circle{
+    margin: 0 5px;
+}
+.butt-srch{
+    position: relative;
+}
+.footer-search-butt{
+    width: 35px;
+    height: 35px;
+    background-color: #e54c2b;
+    border-radius: 50%;
+    color: #fff;
+    position: relative;
+    bottom: 37px;
+    left: 230px;
+    border: 1px solid #e54c2b;
+}
+.heading-1{
+    margin-top: 20px;
+}
+.footer-search{
+    margin-top: 40px;
+    padding: 5px 45px;
+}
+.footer-icon-content-2{
+    margin-top: 40px;
+}
+.footer-icon{
+    margin-top: 20px;
+}
+.footer-sce-resposive{
+    display: flex;
+}
+
+/* footer end*/
+/* footer resposive */
+@media (max-width:992px){
+    .footer-sce-resposive{
+        display: block;
+        text-align: center;
+    }
+    .footer-search-butt{
+      display: none;
+    }
+    .wrapper .footer-icon-circle span{
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        display: block; 
+        border: 1px solid #fff;
+        background: #fff;
+        border-radius: 50%;
+        transition: all 0.5s;
+        line-height: 35px;
+    }
+    .wrapper .footer-icon-circle span:hover{
+        border: 1px solid #e54c2b;
+        color: #e54c2b;
+    }
+    .wrapper{
+        justify-content: center;
+    }
+}
+/* footer resposive end*/

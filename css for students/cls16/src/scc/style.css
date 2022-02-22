@@ -1,0 +1,30 @@
+.first-ok h1{
+    color: brown;
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-indent: 2px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    margin-left: 450px;
+}
+.first-ok p{
+    font-size: 50px;
+    color: #f3bd0c;
+    text-decoration: underline;
+    word-spacing: 5px;
+    /* text-decoration: line-through; */
+} 
+#scend-ok{
+    font-size: 50px;
+    color: crimson;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+div[clss*="ok"]{
+    margin-top: 200px;
+}
+img[alt*="cat"]{
+    height: 80px;
+    width: 80px;
+    margin-left: 550px;
+}

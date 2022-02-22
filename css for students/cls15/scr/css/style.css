@@ -1,0 +1,96 @@
+.Parents-content h1{
+    color: blue;
+    border: 2px brown solid;
+    background-color: brown;
+    text-align: justify;
+    /* display: inline; */
+    text-align: center;
+    text-decoration: bold;
+}
+.Parents-content p{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: bold;
+}
+.Stains hr{
+    width: 550px;
+    height: 10px;
+}
+.Pricing{
+    margin-left: 450px ;
+}
+img[src]{
+    margin-left: 150px;
+    width: 150px;
+    height: 114px;
+}
+.Pricing h3{
+    margin-left: 100px;
+    text-shadow: 2px 2px 8px #FF0000;
+    font-size: 30px;
+}
+.Pricing pre{
+    font-size: 28px;
+    margin-left: -250px;
+}
+.Branding{
+    margin-left: 450px ;
+}
+.Branding h3{
+    margin-left: 100px;
+    text-shadow: 2px 2px 8px #FF0000;
+    font-size: 30px;
+}
+.Branding pre{
+    font-size: 28px;
+    margin-left: -250px;
+}
+.Payments{
+    margin-left: 450px ;
+}
+.Payments h3{
+    margin-left: 100px;
+    text-shadow: 2px 2px 8px #FF0000;
+    font-size: 30px;
+}
+.Payments pre{
+    font-size: 28px;
+    margin-left: -250px;
+}
+.Support{
+    margin-left: 450px ;
+}
+.Support h3{
+    margin-left: 100px;
+    text-shadow: 2px 2px 8px #FF0000;
+    font-size: 30px;
+}
+.Support pre{
+    font-size: 28px;
+    margin-left: -250px;
+}
+.Billing{
+    margin-left: 450px ;
+}
+.Billing h3{
+    margin-left: 100px;
+    text-shadow: 2px 2px 8px #FF0000;
+    font-size: 30px;
+}
+.Billing pre{
+    font-size: 28px;
+    margin-left: -250px;
+}
+.Accounts{
+    margin-left: 450px ;
+}
+.Accounts h3{
+    margin-left: 100px;
+    text-shadow: 2px 2px 8px #FF0000;
+    font-size: 30px;
+}
+.Accounts pre{
+    font-size: 28px;
+    margin-left: -250px;
+}

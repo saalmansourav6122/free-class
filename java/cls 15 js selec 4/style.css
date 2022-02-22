@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.butt {
+  display: block;
+  text-align: center;
+}
+
+button {
+  color: brown;
+  background-color: black;
+  font-size: 20px;
+  padding: 10px 30px;
+  border: 1px solid black;
+}
+.toggl {
+  font-size: 0;
+  display: inline-block;
+  background-color: rgb(255, 248, 248);
+  border: 0 solid rgb(255, 248, 248);
+  text-align: center;
+
+
+}
+.main-toggle {
+  text-align: center;
+}
+span i {
+  color: crimson;
+  float: right;
+}
+.tmin {
+  font-size: 25px;
+  color: rgb(84, 7, 172);
+  background-color: rgb(26, 204, 235);
+  border: 1px solid rgb(235, 26, 96);
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.tmin-1 i {
+  font-size: 0px;
+}

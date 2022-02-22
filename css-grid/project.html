@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    main {
+      display: grid;
+      /* grid-template-columns: 2fr 1fr 1fr 1fr; */
+      grid-template-areas:
+        "se1 se1 se2 se3 se4"
+        "se1 se1 se2 se5 se5";
+
+      grid-gap: 2px;
+      height: 100vh;
+    }
+    .se1 {
+      grid-area: se1;
+    }
+    .se2 {
+      grid-area: se2;
+    }
+    .se3 {
+      grid-area: se3;
+    }
+    .se4 {
+      grid-area: se4;
+    }
+
+    .item {
+      background-color: aqua;
+    }
+    .se5 {
+      grid-area: se5;
+    }
+
+    @media (max-width: 700px) {
+      main {
+        /* display: grid; */
+        grid-template-areas:
+          "se1 se1"
+          "se2 se2"
+          "se3 se4"
+          "se5 se5";
+      }
+    }
+  </style>
+  <body>
+    <main>
+      <div class="item se1">se1</div>
+      <div class="item se2">se2</div>
+      <div class="item se3">se3</div>
+      <div class="item se4">se4</div>
+      <div class="item se5">se5</div>
+    </main>
+  </body>
+</html>

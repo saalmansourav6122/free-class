@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+form{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+form input{
+    width: 30%;
+    border: none;
+    border-bottom: 2px solid #ff1a75;
+}
+input:focus{
+    outline: 2px #fff;
+}
+.btn{
+    padding: 5px 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #ff1a75;
+    color: #fff;
+    cursor: pointer;
+}
+/* input end */
+
+.card{
+    display: grid;
+    height: 100vh;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px 10px 0 10px;
+}
+.main-card{
+    border: 1px solid;
+    background-color: #fff;
+    text-align: center;
+    color: #000000;
+    padding: 5px 3px;
+    /* border: 3px dashed #000; */
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.item{
+    padding: 10px 5px;
+}
+.item-two{
+    color: rgb(238, 8, 8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+

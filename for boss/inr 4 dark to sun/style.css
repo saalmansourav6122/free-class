@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #000;
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: var(--primary-color);
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 20px 0;
+    width: 84%;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: tomato;
+}
+.navbar ul li a:hover{
+    color: rgb(143, 15, 194);
+}
+.navbar img{
+    width: 3%;
+    cursor: pointer;
+}
+.navbar ul{
+    flex: 1;
+    text-align: right;
+}
+h1 a{
+    text-decoration: none;
+    color: rgb(18, 105, 236);
+}
+h1 a span{
+    color: tomato;
+}
+
+/* navbar end */
+
+/* hero content */
+
+.hero-content{
+    display: flex;
+    width: 84%;
+    padding: 20px 0;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-content img{
+    background-size: contain;
+    width: 20%;
+    transition: all 1s;
+    border-radius: 10px;
+}
+
+.hero-content img:hover{
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+.text-button h2{
+    color: rgb(18, 105, 236);
+}
+.text-button h2 samp{
+    color: tomato;
+    cursor: pointer;
+}
+.text-button p{
+    padding: 20px 0;
+    color: var(--secondary-color);
+    line-height: 25px;
+}
+.text-button button{
+    padding: 5px 25px;
+    border:1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: tomato;
+    cursor: pointer;
+    border-radius: 5px;
+}
